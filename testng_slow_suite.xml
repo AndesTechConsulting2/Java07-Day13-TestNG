@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite_Slow">
+
+    <test name="test03" >
+
+        <groups>
+            <!--<define name="fast_and_high" >-->
+                 <!--<include name="fast" />-->
+                 <!--<include name="high" />-->
+            <!--</define>-->
+
+            <run>
+                <include name="slow" />
+            </run>
+        </groups>
+
+        <packages>
+            <package name="org.andestech.learning.rfb18.g2" />
+        </packages>
+
+        <!--<classes>-->
+            <!--<class name="org.andestech.learning.rfb18.g2.AppTest02" />-->
+            <!--<class name="org.andestech.learning.rfb18.g2.AppTest" />-->
+        <!--</classes>-->
+    </test>
+
+</suite>

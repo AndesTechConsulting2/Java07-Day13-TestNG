@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Virtual_Suite]">
+  <test thread-count="5" name="virt_test(failed)">
+    <classes>
+      <class name="org.andestech.learning.rfb18.g2.AppTest03">
+        <methods>
+          <include name="TestCase06"/>
+        </methods>
+      </class> <!-- org.andestech.learning.rfb18.g2.AppTest03 -->
+    </classes>
+  </test> <!-- virt_test(failed) -->
+</suite> <!-- Failed suite [Virtual_Suite] -->

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite_Fast">
+
+    <test name="test01" >
+
+        <groups>
+            <define name="fast_and_high" >
+                 <include name="fast" />
+                 <include name="high" />
+            </define>
+
+            <run>
+                <include name="fast_and_high" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="org.andestech.learning.rfb18.g2.AppTest02" />
+            <class name="org.andestech.learning.rfb18.g2.AppTest" />
+        </classes>
+    </test>
+
+</suite>

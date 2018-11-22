@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite01">
+
+    <parameter name="greets1" value="Hi!" />
+    <parameter name="greets2" value="Salute!" />
+    <parameter name="data1" value="123.3276876" />
+    <parameter name="p1" value="0.2" />
+
+
+    <test name="test01" >
+        <classes>
+            <class name="org.andestech.learning.rfb18.g2.AppTest02" />
+            <class name="org.andestech.learning.rfb18.g2.AppTest" />
+        </classes>
+    </test>
+
+
+    <test name="test02" >
+        <parameter name="greets3" value="Привет!" />
+        <parameter name="greets2" value="Hello!" />
+
+        <classes>
+            <class name="org.andestech.learning.rfb18.g2.AppTest03" />
+        </classes>
+    </test>
+
+</suite>
